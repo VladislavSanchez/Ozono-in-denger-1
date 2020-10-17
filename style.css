@@ -43,11 +43,10 @@ a {
 .header-fon {
 	width: 100%;
 }
-
 .header-title {
 	color: #ffffff;
 	font-size: 60px;
-	margin-left: 36%;
+	margin-left: 32%;
 	position: absolute;
 	margin-top: -250px;
 	z-index: 2;
@@ -145,8 +144,159 @@ footer {
 .color-C {
 	color: #ff0000;
 }
-@media only handheld {
-body {
-	display: none;
+.polling-statistics-container {
+	background-color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 10% 0 10%;
+    padding: 1% 2% 1% 2%;
+    border-radius: 5px;
 }
+.polling-statistics {
+	color: #00346B;
+	padding-left: 2%;
+	font-size: 28px;
+	text-align: center;
 }
+.polling-indent {
+	margin-top: 35px;
+}
+.radio-align {
+	color: #012854;
+}
+.question {
+    color: #0070f0;
+	padding-left: 2%;
+	font-size: 28px;
+}
+.respondents {
+       font-size: 28px;
+} 
+.text-style {
+	padding: 1% 5% 1% 5%;
+	border-radius: 20px;
+	border: 1px solid #0070f0;
+}
+.text-style:focus {
+	outline: none;
+	box-shadow: 0px 0px 5px #0077ff;
+}
+.submit-style {
+	border-radius: 20px;
+	padding: 1% 2% 1% 2%;
+	border: 3px solid #012854; 
+    margin-left: 38%;
+    background-color: #0070f0;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.submit-style:focus {
+	outline: none;
+}
+.submit-style:hover {
+    background-color: #003c80;
+    transition: 1s;
+    cursor: pointer;
+}
+.alarm {
+	background-color: #d11515;
+	width: 100%;
+	display: block;
+	position: fixed;
+	bottom: 0px;
+	color: #ffffff;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.voted {
+	margin-left: 5%;
+	padding: 5px;
+	border: 3px solid #4d94ff;
+	color: #4d94ff;
+}
+@media only screen and (max-width: 980px){
+	.header-title {
+		font-size: 80px;
+	}
+	.content {
+		margin-left: 0;
+		margin-right: 0;
+		font-size: 20px;
+	}
+	.footer-content {
+		margin-left: 5%;
+	}
+	.picture {
+		width: 90%;
+		margin-left: 5%;
+	}
+	.picture-1 {
+		width: 90%;
+		margin-left: 5%;
+	}
+	.nav-block {
+		font-size: 50px;
+	}
+	.nav-block:hover {
+		font-size: 55px;
+	}
+	.polling-statistics-container {
+		font-size: 30px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.content-title {
+		font-size: 15px;
+	}
+	.polling-statistics {
+		font-size: 15px;
+	}
+	.question {
+		font-size: 30px;
+	}
+	.radio-align {
+		font-size: 20px;
+	}
+	.text-style {
+	    width: 90%;
+	    height: 150px;
+	    font-size: 30px;
+	}
+	.radio-align input {
+	    transform:scale(3);
+	    margin-right: 3%;
+	}
+	.submit-style {
+	 width: 80%;   
+	 height: 100px;
+	 font-size: 50px;
+	 margin: 20px 10% 20px 10%;
+	}
+	.content-title {
+	    font-size: 90px;
+	}
+	.header-fon {
+	    margin-top: 180px;
+	}
+	.header-title  {
+	    margin-left: 15%;
+	}
+	.header-title-page-5 {
+	    margin-left: 20%;
+	}
+    .respondents {
+        font-size: 60px;
+        color: blue;
+     } 
+     .footer-5 {
+         display: none;
+     } 
+     .polling-statistics-result {
+         font-size: 40px;   
+     }
+     .picture-5 {
+         width: 80%;
+         margin-left: 10%;
+     }
